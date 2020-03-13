@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>出错啦</title>
+    <meta http-equiv="Content-Type" content="/text/html; charset=UTF-8" />
+</head>
+<body>
+<div class="jumbotron">
+    <h1>出错啦！！</h1>
+    <p> 时间:<font th:text="${msg.timestamp}"></font></p>
+    <p> 状态:<font th:text="${msg.status}"></font></p>
+    <p> 错误:<font th:text="${msg.error}"></font></p>
+    <p> 信息:<font th:text="${msg.message}"></font></p>
+    <p> 路径:<font th:text="${msg.path}"></font></p>
+    <p>服务太热了，要不然稍等下再来试试</p>
+    <p><a class="btn btn-primary btn-lg" href="/" role="button">回到主页</a></p>
+</div>
+</body>
+</html>

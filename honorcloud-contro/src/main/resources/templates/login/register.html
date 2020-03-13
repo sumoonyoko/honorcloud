@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>QQ第一次授权，请绑定帐号</h1>
+<div>
+    ${userEntity.nickname}
+</div>
+<div>
+    <img src="${userEntity.image}">
+</div>
+<form action="<%=path%>/indexController/regsave" method="post">
+    <input type="hidden" name="openid" value="${userEntity.openid}" />
+    <div>电话:<input type="text" name="phone" value="" /></div>
+    <div>邮件:<input type="text" name="email" value="" /></div>
+    <div><input type="submit" /></div>
+</form>
+</body>
+</html>

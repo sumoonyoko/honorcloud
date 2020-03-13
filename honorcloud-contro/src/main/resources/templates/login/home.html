@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+ <body>
+        <#--
+        <div>QQ授权成功</div>
+        <div>
+            OPENID: ${openid}
+        </div>
+        <div>
+            NickName: ${nickname}
+        </div>
+        <div>
+            <img src="${figureurl_qq_2}">
+        </div>
+        -->
+
+        <div>QQ授权成功</div>
+        <div>
+            ${userEntity.nickname}
+        </div>
+        <div>
+            <img src="${userEntity.image}">
+        </div>
+        <div>
+            ${userEntity.email?}
+        </div>
+
+    </body>
+</html>
