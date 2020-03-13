@@ -31,9 +31,11 @@
     </script>
     <script src="/index/js/jquery.min.js"></script>
     <script src="/index/js/base.js"></script>
+    <script>
+          $("#footer").load("base/footer.html");
+    </script>
 </head>
 <body>
-
 <!-- SVG图片加载 -->
 <div class="load-box">
   <svg viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -467,9 +469,6 @@ $(function(){
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-<div class="footer-wrap">
-      <p>©2018 sensuso 使用本站前必读 意见反馈 陕ICP备17006571号-3 </p>
-	  <p>京公网安备C20180928-0399号 </p>
-  </div>
+    <div id="footer"></div>
 </body>
 </html>

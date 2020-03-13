@@ -4,6 +4,10 @@ public class PageConstant {
 	
 	public static final String INDEX = "index";
 	
+	public static final String HEADER = "base/header";
+	
+	public static final String FOOTER = "base/footer";
+	
 	public static final String CUSTOMIZE_INDEX = "indexs/customizeIndex";
 	
 	public static final String DEFAULT_INDEX = "indexs/defaultIndex";

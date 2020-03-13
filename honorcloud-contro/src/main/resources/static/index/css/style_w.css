@@ -3,7 +3,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
 .new-open{position: absolute; top:0; right: 0; padding: 2px 5px; background: #000000; color: #FFFFFF; display: none}
 .vido-windows:hover > .new-open {  display: block}
 @media (max-width: 767px){.hidden-xs{display:none !important}}
-/* ·ÖÒ³ */
+/* ï¿½ï¿½Ò³ */
 .pagination > li > .active,
 .pagination > li > .active > span,
 .pagination > li > .active > a:hover,
@@ -22,7 +22,7 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
     background-color: #f8bf00;
     border-color: #f5b324;
 }
-/* ÕÚÕÖ²ãÑùÊ½ */
+/* ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½Ê½ */
     .cover{
         width:100%;
         height:100%;
@@ -33,7 +33,5 @@ html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1
         background-color:#000;
         opacity:0.3;
     }
-.footer-wrap{border-top: 1px solid #402863; text-align:center;height:auto;width:100%;margin-top:150px;}
-.footer-wrap p{text-align:center;margin-top:2px;margin-bottom:5px;}
-    
+
     

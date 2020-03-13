@@ -31,6 +31,18 @@ public class HomeAction {
 		return PageConstant.INDEX;
 	}
 	
+	@ApiOperation("默认主页")
+	@RequestMapping("/header")
+	public String header() {
+		return PageConstant.HEADER;
+	}
+	
+	@ApiOperation("默认主页")
+	@RequestMapping("/footer")
+	public String footer() {
+		return PageConstant.FOOTER;
+	}
+	
 	@RequestMapping("dark/{msg}")
 	public String customizeIndex(@PathVariable(value = "msg")int msg) {
 		if(StringUtils.isNotEmpty(customizeIndex)) {
