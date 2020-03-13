@@ -18,6 +18,8 @@ public class PageConstant {
 	
 	public static final String PLAYER_INDEX = "player/index";
 	
-	public static final String ALBUM_INDEX = "alum/index";
+	public static final String ALBUM_INDEX = "album/index";
+	
+	public static final String ALBUM_ADMIN = "album/admin";
 	
 }

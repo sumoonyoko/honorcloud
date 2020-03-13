@@ -1,174 +1,48 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-	<meta http-equiv="Cache-Control" content="no-siteapp">
-	<title>王者荣耀の巅峰明月战队官网</title>
-	<meta name="renderer" content="webkit">
-	<meta name="generator" content="WnnetMice"  data-variable="#,cn,10001,,10001" />
-	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-	<link rel="stylesheet" href="/index/css/style_w.css">
-	<link rel="canonical" href="/index/#" />
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="/index/js/html5shiv.min.js"></script>
-    <script src="/index/js/respond.min.js"></script>
-    <style>
-        .img-responsive{ max-width: inherit }
-    </style>
-    <![endif]-->
-	<script type="text/javascript">
-        var cookie_pre = "ZZU_";var cookie_domain = '';var cookie_path = '';var web_url = '#';
-    </script>
-    <script src="/index/js/jquery.min.js"></script>
-    <script src="/index/js/base.js"></script>
-</head>
-<body>
-<!-- SVG图片加载 -->
-<div class="load-box">
-  <svg viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<g>
-	  <circle cx="35" cy="16.6987298" r="11"></circle>
-	  <circle cx="16.6987298" cy="35" r="11"></circle>
-	  <circle cx="10" cy="60" r="11"></circle>
-	  <circle cx="16.6987298" cy="85" r="11"></circle>
-	  <circle cx="35" cy="103.30127" r="11"></circle>
-	  <circle cx="60" cy="110" r="11"></circle>
-	  <circle cx="85" cy="103.30127" r="11"></circle>
-	  <circle cx="103.30127" cy="85" r="11"></circle>
-	  <circle cx="110" cy="60" r="11"></circle>
-	  <circle cx="103.30127" cy="35" r="11"></circle>
-	  <circle cx="85" cy="16.6987298" r="11"></circle>
-	  <circle cx="60" cy="10" r="11"></circle>
-	</g>
-  </svg>
-</div>
-
-<!-- SVG图片加载 -->
-<!--[if lte IE 8]>
-	<div class="text-center padding-top-50 padding-bottom-50 bg-blue-grey-100">
-	<p class="browserupgrade font-size-18">你正在使用一个<strong>过时</strong>的浏览器。请<a href="http://browsehappy.com/" target="_blank">升级您的浏览器</a>，以提高您的体验。</p>
-	</div>
-<![endif]-->
-
-<!-- 右侧缩进导航 -->
-<div class="side-open"><hr><hr><hr><hr></div>
-<div class="side-box">
-    <div class="side-cut">
-	    <div class="side-shadow"></div>
-		<div class="side-bin">
-		    <div class="side-search">
-			    <form name="topsearch" action="#index.html" method="get" target="_blank">
-				    <input type='hidden' name='lang' value='cn' />
-					<input type="hidden" name="f" value="search">
-					<input type="hidden" name="modelid" value="">
-					<div class="form-group">
-					    <div class="input-search">
-						    <button type="submit" class="input-search-btn"><i class="icon wb-search" aria-hidden="true"></i></button>
-							<input class="form-control none-border" name="keywords" value="" placeholder="搜索本站 ...">
-						</div>
-					</div>
-				</form>
-			</div>
-			<!-- 右侧导航具体内容 -->
-			<div class="side-nav">
-			    <ul>
-			    <li class="nav-first active"><a href="#" title="精彩首页"><i class="fa fa-home"></i><b>精彩首页</b></a></li>	
-				<li class="nav-first has">
-					<a href="#" title="关于我们" data-alert="全部"><i class="fa fa-home fa-reorder"></i>
-					<b>简介</b></a><u>&nbsp;</u><i>&nbsp;</i>
-					<ul>
-					    <dl>
-						    <dt><img width="400" data-original=" /index/img/01.jpg" /></dt>
-							<dd></dd>
-						</dl>
-						<li class="nav-second"><a href="#" title="网站介绍" data-alert="全部"><b>网站介绍</b></a></li>
-						<li class="nav-second"><a href="#" title="站队优势" data-alert="全部"><b>站队优势</b></a></li>
-						<li class="nav-second"><a href="#" title="加入方式" data-alert="全部"><b>加入方式</b></a></li>
-					</ul>						
-				</li>
-				<li class="nav-first has">
-				    <a href="#" title="官网设计" data-alert="全部"><i class="fa fa-home fa-reorder"></i>
-				    <b>官网设计</b></a><u>&nbsp;</u><i>&nbsp;</i>
-					<ul>
-					    <dl>
-						    <dt><img width="400" data-original="/img/02.jpg" /></dt>
-							<dd></dd>
-						</dl>
-						<li class="nav-second"><a href="#" title="内容设计" data-alert="全部"><b>内容设计</b></a></li>
-						<li class="nav-second"><a href="#" title="网站设计" data-alert="全部"><b>网站设计</b></a></li>
-						<li class="nav-second"><a href="#" title="手机拍摄" data-alert="全部"><b>手机拍摄</b></a></li>
-					</ul>						
-				</li>
-				<li class="nav-first has">
-					<a href="#" title="网页设计" data-alert="全部"><i class="fa fa-home fa-reorder"></i>
-					<b>网页设计</b></a><u>&nbsp;</u><i>&nbsp;</i>
-					<ul>
-						<dl>
-							<dt><img width="400" data-original=" /index/img/03.jpg" /></dt>
-							<dd></dd>
-						</dl>
-						<li class="nav-second"><a href="#" title="网页设计" data-alert="全部"><b>网页设计</b></a></li>
-						<li class="nav-second"><a href="#" title="其它" data-alert="全部"><b>其它网站</b></a></li>
-					</ul>						
-				</li>				
-				<li class="nav-first has">
-				    <a href="#" title="最新资讯" data-alert="全部"><i class="fa fa-home fa-reorder"></i>
-				    <b>赛事资讯</b></a>		
-					<u>&nbsp;</u><i>&nbsp;</i>
-					<ul>
-					    <dl>
-						    <dt><img width="400" data-original=" /index/img/05.jpg" /></dt>
-							<dd></dd>
-						</dl>
-						<li class="nav-second"><a href="#" title="LPL最新资讯" data-alert="全部"><b>LPL最新资讯</b></a></li>
-						<li class="nav-second"><a href="#" title="LOL最新资讯" data-alert="全部"><b>LOL最新资讯</b></a></li>
-					</ul>						
-				</li>
-				<li class="nav-first">
-					<a href="/#" title="联系我们" data-alert="全部" ><i class="fa fa-pie-chart"></i>
-					<b>联系我们</b></a>
-				</li>
-				<li class="nav-first has">
-				    <a href="/#" title="视频" data-alert="全部"><i class="fa fa-home fa-reorder"></i>
-				    <b>宣传片</b></a><u>&nbsp;</u><i>&nbsp;</i>
-					<ul>
-					    <dl>
-						    <dt><img width="400" data-original=" /index/img/04.jpg" /></dt>
-							<dd></dd>
-						</dl>
-						<li class="nav-second"><a href="#" title="官网宣传片" data-alert="全部"><b>官网宣传片</b></a></li>
-						<li class="nav-second"><a href="#" title="战队推广" data-alert="全部"><b>战队推广</b></a></li>
-						<li class="nav-second"><a href="#" title="经典集锦推荐" data-alert="全部"><b>经典集锦推荐</b></a></li>
-					</ul>						
-				</li>
-				</ul>
-			</div>
-			<!-- 右侧最下部信息 -->
-			<div class="side-foot">
-			    <div class="side-phone">
-				    <p><b>Call me :</b><a href="tel:000000000">(0913) 0000-000</a></p>
-					<i class="fa fa-qrcode" data-toggle="modal" data-target="#met-ewm-modal"></i>
-				</div>
-				<div class="side-text">© 2019 王者荣耀の巅峰明月</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- 网站LOGO -->
-<div class="side-head nav-open1">
-    <div class="side-logo">
-	    <a href="#" title="王者荣耀の巅峰明月"><img data-original="//game.gtimg.cn/images/yxzj/cp/a20180919group/logo.png" data-size="290_105" alt="王者荣耀の巅峰明月logo" title="王者荣耀の巅峰明月" />
-	    </a>
-    </div>
-	<div class="sign-box"> 
-        <ul class="sign-ul swiper-nav"></ul>
-	</div>
-</div>
-<!-- 上面的代码可以单独做头 -->
-
-</body>
-</html>
+<header>
+ <nav class="navbar navbar-default navbar-fixed-top navbar-inverse ">
+   <div class="container">
+       <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                   aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="index.html">巅峰明月战绩图床</a>
+       </div>
+       <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav">
+               <li class="active"><a href="index.html">上传图片</a></li>
+               <li><a href="/album/admin">图片管理</a></li>
+               <li><a href="http://www.sumoon.top">solo博客</a>
+               </li>
+           </ul>
+           <ul class="nav navbar-nav navbar-right navbar-inverse">
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                       aria-haspopup="true" aria-expanded="false">控制面板 <span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                       <li><a href="#">主题设置</a>
+                       </li>
+                       <li><a href="#">语言设置</a>
+                       </li>
+                       <li role="separator" class="divider"></li>
+                       <li><a href="#">更多功能,内测中</a>
+                       </li>
+                   </ul>
+               </li>
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                       aria-haspopup="true" aria-expanded="false">欢迎：sumoon <span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                       <li><a href="#">个人资料-开发中</a>
+                       </li>
+                       <li><a href="#">修改密码-开发中</a>
+                       </li>
+                   </ul>
+               </li>
+               <li><a href="#">退出</a>
+               </li>
+           </ul>
+       </div>
+   </div>
+ </nav>
+</header>

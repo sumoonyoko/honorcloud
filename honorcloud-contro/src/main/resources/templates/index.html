@@ -22,18 +22,15 @@
     <!--[if lt IE 9]>
     <script src="/index/js/html5shiv.min.js"></script>
     <script src="/index/js/respond.min.js"></script>
-    <style>
-        .img-responsive{ max-width: inherit }
-    </style>
     <![endif]-->
 	<script type="text/javascript">
         var cookie_pre = "ZZU_";var cookie_domain = '';var cookie_path = '';var web_url = '#';
     </script>
     <script src="/index/js/jquery.min.js"></script>
     <script src="/index/js/base.js"></script>
-    <script>
+<!--     <script>
           $("#footer").load("base/footer.html");
-    </script>
+    </script> -->
 </head>
 <body>
 <!-- SVG图片加载 -->
@@ -469,6 +466,6 @@ $(function(){
     s.parentNode.insertBefore(bp, s);
 })();
 </script>
-    <div id="footer"></div>
+    <footer th:replace="base/footer.html"></footer>
 </body>
 </html>

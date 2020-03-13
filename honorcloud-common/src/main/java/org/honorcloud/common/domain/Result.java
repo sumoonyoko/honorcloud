@@ -12,13 +12,13 @@ import lombok.Data;
  */
 @ApiModel(value = "结果集统一返回")
 @Data
-public class Result<T> {
+public class Result{
 	
 	@ApiModelProperty(value = "success",dataType = "int", notes = "0失败，1成功",allowableValues = "0,1")
 	private int success = 0;
 	
 	@ApiModelProperty(value = "data",notes = "具体数据",dataType = "Object")
-	private T data;
+	private Object data;
 	
 	@ApiModelProperty(value = "消息",notes = "消息",dataType = "message")
 	private String message;
