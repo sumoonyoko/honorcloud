@@ -31,7 +31,6 @@ public class AliyunCloudStorageService extends AbstractCloudStorage {
     public String upload(InputStream inputStream, String path) throws Exception {
         try {
             OSSClient client = new OSSClient(cloudStorageConfigPo.getAliyunEndPoint(), cloudStorageConfigPo.getAliyunAccessKeyId(), cloudStorageConfigPo.getAliyunAccessKeySecret());
-
             client.putObject(cloudStorageConfigPo.getAliyunBucketName(), path, inputStream);
         } catch (Exception e) {
             throw new RuntimeException("上传文件失败，请检查配置信息", e);

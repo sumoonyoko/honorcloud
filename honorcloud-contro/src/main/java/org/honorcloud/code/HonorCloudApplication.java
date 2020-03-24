@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @MapperScan(basePackages = "org.honorcloud.code.dao")
 @ComponentScan("org.honorcloud.code")
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})
+@SpringBootApplication
 public class HonorCloudApplication{
     public static void main( String[] args ){
     	SpringApplication application = new SpringApplication(HonorCloudApplication.class);
