@@ -41,7 +41,7 @@ function initTableDate(data) {
     table.render({
 
         elem: '#data_table',
-        url: '/ymq/cloudStorage/getImagesList',
+        url: '/album/getImagesList',
         where: {params: JSON.stringify(data)},
         width: 1140,
         cols: [
@@ -119,7 +119,7 @@ function deleteTable(obj) {
         btn: ['删除', '取消'] //按钮
     }, function (index) {
         $.ajax({
-            url: "/ymq/cloudStorage/deleteById",
+            url: "/album/deleteById",
             data: {imagesId: +obj.data.imagesId},
             type: 'get',
             success: function (data) {
@@ -153,7 +153,7 @@ function updateForm(obj) {
         , yes: function (index, layero) {
             var params = JSON.stringify(serializeForm($("#updateForm")));
             $.ajax({
-                url: "/ymq/cloudStorage/update",
+                url: "/album/update",
                 data: {params: params},
                 type: 'post',
                 success: function (data) {

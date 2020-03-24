@@ -45,7 +45,7 @@ function pinterest(params) {
 
             //数据插入
             $.ajax({
-                url: "/ymq/cloudStorage/getImagesList",
+                url: "/album/getImagesList",
                 data: {params: JSON.stringify(params), pageNum: pageNum, pageSize: 8},
                 type: 'get',
                 success: function (data) {

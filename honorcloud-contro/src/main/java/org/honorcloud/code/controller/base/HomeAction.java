@@ -32,6 +32,12 @@ public class HomeAction {
 	}
 	
 	@ApiOperation("默认主页")
+	@RequestMapping("/intro")
+	public String intro() {
+		return PageConstant.INTRO;
+	}
+	
+	@ApiOperation("默认主页")
 	@RequestMapping("/header")
 	public String header() {
 		return PageConstant.HEADER;

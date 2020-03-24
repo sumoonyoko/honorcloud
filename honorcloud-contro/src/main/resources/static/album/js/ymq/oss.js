@@ -40,7 +40,7 @@ function saveCloudStorageConfig() {
     var cloudStorage = JSON.stringify(serializeForm($("#formCloudStorage")));
 
     $.ajax({
-        url: "/ymq/cloudStorage/saveCloudStorageConfig",
+        url: "/album/saveCloudStorageConfig",
         data: {params: cloudStorage},
         type: 'post',
         success: function (data) {
@@ -61,7 +61,7 @@ function saveCloudStorageConfig() {
 function defaultCloudStorageType(data) {
 
     $.ajax({
-        url: "/ymq/cloudStorage/defaultCloudStorageType",
+        url: "/album/defaultCloudStorageType",
         data: {storageType: data},
         type: 'post',
         success: function (data) {
@@ -80,7 +80,7 @@ function defaultCloudStorageType(data) {
 function selectCloudStorageConfig(form) {
 
     $.ajax({
-        url: "/ymq/cloudStorage/selectCloudStorageConfig",
+        url: "/album/selectCloudStorageConfig",
         type: 'post',
         success: function (data) {
 

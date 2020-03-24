@@ -4,7 +4,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>王者荣耀-巅峰明月-战绩图床</title>
+    <title>王者荣耀-巅峰明月战队官网</title>
     <link href="../album/css/bootstrap.css" rel="stylesheet">
     <link href="../album/css/fileinput.css" media="all" rel="stylesheet" type="text/css"/>
     <link href="../album/css/theme.css" media="all" rel="stylesheet" type="text/css"/>
@@ -17,10 +17,10 @@
     <script src="../album/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body style="padding-top: 30px">
-<header th:replace="../base/header.html"></header>
+<header th:replace="/base/header.html"></header>
 <div class="container kv-main">
     <div class="page-header">
-        <h2>王者荣耀-巅峰明月战队-战绩图床</h2> 每个图片最大5 MB,每个请求最多10个文件
+        <h2>王者荣耀-巅峰明月战队官网</h2> 每个图片最大5 MB,每个请求最多10个文件
     </div>
     <form enctype="multipart/form-data">
         <div class="form-group">
@@ -52,7 +52,7 @@
         </div>
     </div>
 </div>
-<footer th:replace="../base/footer.html"></footer>
+<footer th:replace="/base/footer.html"></footer>
 <script src="../album/js/ymq/index.js" type="text/javascript"></script>
 </body>
 </html>

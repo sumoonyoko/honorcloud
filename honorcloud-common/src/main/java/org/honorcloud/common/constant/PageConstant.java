@@ -4,6 +4,8 @@ public class PageConstant {
 	
 	public static final String INDEX = "index";
 	
+	public static final String INTRO = "intro";
+	
 	public static final String HEADER = "base/header";
 	
 	public static final String FOOTER = "base/footer";
@@ -21,5 +23,9 @@ public class PageConstant {
 	public static final String ALBUM_INDEX = "album/index";
 	
 	public static final String ALBUM_ADMIN = "album/admin";
+	
+	public static final String ALBUM_TIMELINE = "album/timeline";
+	
+	public static final String ALBUM_OSS = "album/oss";
 	
 }

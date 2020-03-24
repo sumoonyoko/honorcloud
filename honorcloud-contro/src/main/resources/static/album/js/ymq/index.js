@@ -17,7 +17,7 @@
 
 
 $("#file").fileinput({
-    uploadUrl: 'ymq/cloudStorage/upload',
+    uploadUrl: '/album/upload',
     allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp'],
     overwriteInitial: false,
     maxFileSize: 12120,

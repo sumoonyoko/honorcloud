@@ -1,0 +1,6 @@
+.keyword{color:red;}
+.albkeyword{color:red;text-align: center;}
+#pageNext{float:right}
+#pageLast{float:left}
+#pageAll{width:80;height:38;text-align: center;display:block;vertical-align: middle;margin:0px auto;}
+.imgp{width:5px;height:5px;}
