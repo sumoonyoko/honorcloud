@@ -10,6 +10,8 @@ public class PageConstant {
 	
 	public static final String FOOTER = "base/footer";
 	
+	public static final String BOSS = "base/boss";
+	
 	public static final String CUSTOMIZE_INDEX = "indexs/customizeIndex";
 	
 	public static final String DEFAULT_INDEX = "indexs/defaultIndex";

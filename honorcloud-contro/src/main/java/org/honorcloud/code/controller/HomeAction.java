@@ -49,6 +49,12 @@ public class HomeAction {
 		return PageConstant.FOOTER;
 	}
 	
+	@ApiOperation("老板娘")
+	@RequestMapping("/boss")
+	public String boss() {
+		return PageConstant.BOSS;
+	}
+	
 	@ApiOperation("聊天室主页")
 	@RequestMapping("xchat/index")
 	public String chatIndex() {
