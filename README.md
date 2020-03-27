@@ -30,9 +30,9 @@ honorcloud项目是专为王者荣耀-巅峰明月战队研发的官网微服务
 ## 数据库配置
 ```
  datasource:
-    url: jdbc:mysql://106.12.216.153:3306/honor?autoReconnect=true&useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://127.0.0.1:3306/honor?autoReconnect=true&useUnicode=true&characterEncoding=utf8
     username: root
-    password: Sumoon2812@top
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
 ```
 ##  RESTful接口设计
