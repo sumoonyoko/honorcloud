@@ -28,4 +28,10 @@ public class PageConstant {
 	
 	public static final String ALBUM_OSS = "album/oss";
 	
+	public static final String CHAT_INDEX = "xchat/index";
+	
+	public static final String CHAT_RECORD = "xchat/record";
+	
+	public static final String CHAT_ROOM = "xchat/room";
+	
 }

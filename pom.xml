@@ -14,7 +14,6 @@
 		<module>honorcloud-contro</module>
 		<module>honorcloud-common</module>
 		<module>honorcloud-job</module>
-    <module>honorcloud-leetcode</module>
   </modules>
 
 	<properties>
