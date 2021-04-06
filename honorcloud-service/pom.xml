@@ -11,8 +11,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>honorcloud-contro</artifactId>
-	<name>honorcloud-contro</name>
+	<artifactId>honorcloud-service</artifactId>
+	<name>honorcloud-service</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -31,7 +31,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>top.sumoon</groupId>
-			<artifactId>honorcloud-common</artifactId>
+			<artifactId>honorcloud-cbb</artifactId>
 			<version>${project.version}</version>
 			<exclusions>
 				<exclusion>

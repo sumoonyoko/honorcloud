@@ -28,7 +28,7 @@
 		</dependency>
 		<dependency>
 			<groupId>top.sumoon</groupId>
-			<artifactId>honorcloud-common</artifactId>
+			<artifactId>honorcloud-cbb</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<!-- 上边引入 parent，因此 下边无需指定版本 -->

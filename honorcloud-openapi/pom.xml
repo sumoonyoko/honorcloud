@@ -10,8 +10,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>honorcloud-api</artifactId>
-	<name>honorcloud-api</name>
+	<artifactId>honorcloud-openapi</artifactId>
+	<name>honorcloud-openapi</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -25,7 +25,7 @@
 		</dependency>
 		<dependency>
 			<groupId>top.sumoon</groupId>
-			<artifactId>honorcloud-common</artifactId>
+			<artifactId>honorcloud-cbb</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>

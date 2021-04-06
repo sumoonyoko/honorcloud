@@ -10,8 +10,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>honorcloud-common</artifactId>
-	<name>honorcloud-common</name>
+	<artifactId>honorcloud-cbb</artifactId>
+	<name>honorcloud-cbb</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
