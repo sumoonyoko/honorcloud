@@ -28,7 +28,7 @@
 		<honor.version>0.0.1-SNAPSHOT</honor.version>
 		<spring.version>5.1.7.RELEASE</spring.version>
 		<springBoot.version>2.2.5.RELEASE</springBoot.version>
-		<httpclient.version>4.5.5</httpclient.version>
+		<httpclient.version>4.5.13</httpclient.version>
     	<slf4j.version>1.7.25</slf4j.version>
     	<fastjson.version>1.2.47</fastjson.version>
     	<mybatisplus.version>3.3.1</mybatisplus.version>
